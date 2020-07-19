@@ -8,7 +8,18 @@ db.sqlite3
 db.sqlite3-journal
 media
 
+# env variables for DB access
+env_variables.yaml
+app.yaml.shadow
+
+# vim files
+*.swp
+
 # awaazde/staticfiles/
+static/
+
+# GCloud files
+cloud_sql_proxy
 
 ### Django.Python Stack ###
 # Byte-compiled / optimized / DLL files
